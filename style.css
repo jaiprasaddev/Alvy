@@ -1,0 +1,690 @@
+@font-face {
+  font-family: chillax;
+  src: url(./assets/fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+@font-face {
+  font-family: satoshi;
+  src: url(./assets/fonts/63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+@font-face {
+  font-family: wof;
+  src: url(./assets/fonts/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(253, 251, 246);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+}
+main section.hero {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+main section.hero .hero-top {
+  width: 100%;
+}
+main section.hero .hero-top img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+main section.hero .hero-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  background: #1E1E1E;
+  width: 100%;
+}
+main section.hero .hero-bottom .bottom-top {
+  font-family: wof;
+  text-transform: uppercase;
+}
+main section.hero .hero-bottom .bottom-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.hero .hero-bottom .bottom-bottom h1 {
+  font-family: chillax;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2.39rem;
+  line-height: 1.2;
+}
+main section.hero .hero-bottom .bottom-bottom p {
+  color: #929292;
+  font-family: satoshi;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+main section.hero .hero-bottom .bottom-bottom button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  font-family: wof;
+}
+main section.hero .hero-bottom .bottom-bottom button i {
+  background-color: #292929;
+  font-weight: 100;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  border: 1px solid rgba(249, 244, 236, 0.259);
+}
+main section.view2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: chillax;
+  padding: 0.7rem 1rem;
+}
+main section.view2 .left, main section.view2 .right {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+main section.view2 .left .elements, main section.view2 .right .elements {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main section.view2 .left .elements small, main section.view2 .right .elements small {
+  opacity: 0.6;
+  font-size: 0.9rem;
+  font-family: wof;
+}
+main section.view2 .left .elements h2, main section.view2 .right .elements h2 {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+main section.view3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 0.7rem 1rem;
+}
+main section.view3 .image {
+  width: 100%;
+}
+main section.view3 .image img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+main section.view3 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  background: #1E1E1E;
+  width: 100%;
+}
+main section.view3 .content .heading {
+  font-family: wof;
+  text-transform: uppercase;
+}
+main section.view3 .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .content .text h1 {
+  font-family: chillax;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+main section.view3 .content .text .paragraphs p {
+  color: #929292;
+  font-family: satoshi;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 0.7rem 1rem;
+}
+main section.view4 .image {
+  width: 100%;
+}
+main section.view4 .image img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+main section.view4 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  background: #1E1E1E;
+  width: 100%;
+}
+main section.view4 .content .heading {
+  font-family: wof;
+  text-transform: uppercase;
+}
+main section.view4 .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view4 .content .text h1 {
+  font-family: chillax;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+main section.view4 .content .text .paragraphs p {
+  color: #929292;
+  font-family: satoshi;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+main section.view5 {
+  padding: 0.7rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+main section.view5 h1 {
+  font-family: chillax;
+  padding: 1.5rem;
+}
+main section.view5 .cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view5 .cards .card {
+  width: 100%;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: space-between;
+}
+main section.view5 .cards .card .social {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  gap: 0.8rem;
+}
+main section.view5 .cards .card .social i {
+  background-color: rgba(128, 128, 128, 0.314);
+  padding: 0.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.184);
+}
+main section.view5 .cards .card .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.184);
+  text-transform: uppercase;
+  background-color: rgba(128, 128, 128, 0.262);
+}
+main section.view5 .cards .card .info .name {
+  font-family: chillax;
+  font-size: 1.2rem;
+}
+main section.view5 .cards .card .info .proffesion {
+  font-family: wof;
+  font-size: 0.9rem;
+}
+main section.view5 .cards .card:nth-child(1) {
+  background-image: url(./assets/images/brand.webp);
+}
+main section.view5 .cards .card:nth-child(2) {
+  background-image: url(./assets/images/market.webp);
+}
+main section.view5 .cards .card:nth-child(3) {
+  background-image: url(./assets/images/video.webp);
+}
+main section.view6 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view6 .image {
+  width: 100%;
+}
+main section.view6 .image img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+main section.view6 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  background: #1E1E1E;
+  width: 100%;
+}
+main section.view6 .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main section.view6 .content .text p {
+  font-family: wof;
+  opacity: 0.6;
+}
+main section.view6 .content .text h1 {
+  text-transform: uppercase;
+  font-family: chillax;
+  font-weight: 200;
+}
+main section.view6 .content button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  font-family: wof;
+}
+main section.view6 .content button i {
+  background-color: #292929;
+  font-weight: 100;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  border: 1px solid rgba(249, 244, 236, 0.259);
+}
+main section.contact {
+  width: 100%;
+  padding: 1rem;
+}
+main section.contact .background {
+  width: 100%;
+  background: #CEBD63;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+main section.contact .background .top p {
+  color: black;
+  font-family: wof;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+main section.contact .background .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+main section.contact .background .bottom h1 {
+  color: black;
+  font-family: chillax;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+main section.contact .background .bottom button {
+  background-color: black;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: wof;
+}
+main footer {
+  padding: 1rem;
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+main footer .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  gap: 4rem;
+  background: #1E1E1E;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+}
+main footer .left .alvy h4 {
+  font-family: chillax;
+  font-weight: 400;
+  font-size: 1.2rem;
+  opacity: 0.6;
+  letter-spacing: 2px;
+}
+main footer .left .social {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 0.8rem;
+}
+main footer .left .social i {
+  background-color: rgba(128, 128, 128, 0.314);
+  padding: 0.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.184);
+}
+main footer .right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main footer .right .links {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #1E1E1E;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+}
+main footer .right .links .pages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main footer .right .links .pages h4 {
+  font-family: chillax;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+main footer .right .links .pages a {
+  text-decoration: none;
+  font-family: wof;
+  opacity: 0.6;
+}
+main footer .right .links .pages button {
+  background: #CEBD63;
+  border: none;
+  padding: 1rem 1.2rem;
+  border-radius: 0.4rem;
+  color: #292929;
+  font-family: wof;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main footer .right .copy {
+  background: #1E1E1E;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+main footer .right .copy p {
+  opacity: 0.6;
+  font-family: wof;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  main section.hero .hero-top img {
+    border-radius: 1.5rem;
+  }
+  main section.hero .hero-bottom {
+    border-radius: 1.5rem;
+    padding: 2.2rem;
+    gap: 6.5rem;
+  }
+  main section.hero .hero-bottom .bottom-bottom h1 {
+    font-size: 3.7rem;
+  }
+  main section.hero .hero-bottom .bottom-bottom p {
+    font-size: 1.6rem;
+  }
+  main section.view2 {
+    padding: 2rem 0;
+  }
+  main section.view2 .left .elements h2, main section.view2 .right .elements h2 {
+    font-size: 3.5rem;
+  }
+  main section.view3 .image img {
+    border-radius: 1.5rem;
+  }
+  main section.view3 .content {
+    border-radius: 1.5rem;
+    padding: 2.2rem;
+    gap: 6.5rem;
+  }
+  main section.view3 .content .text h1 {
+    font-size: 2.8rem;
+  }
+  main section.view3 .content .text .paragraphs {
+    display: flex;
+  }
+  main section.view3 .content .text .paragraphs p {
+    font-size: 1.2rem;
+  }
+  main section.view4 .image img {
+    border-radius: 1.5rem;
+  }
+  main section.view4 .content {
+    border-radius: 1.5rem;
+    padding: 2.2rem;
+    gap: 6.5rem;
+  }
+  main section.view4 .content .text h1 {
+    font-size: 2.8rem;
+  }
+  main section.view4 .content .text .paragraphs {
+    display: flex;
+  }
+  main section.view4 .content .text .paragraphs p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  main section.hero {
+    display: flex;
+    flex-direction: row;
+  }
+  main section.hero .hero-top, main section.hero .hero-bottom {
+    width: 50%;
+    height: 800px;
+  }
+  main section.hero .hero-top img, main section.hero .hero-bottom img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 800px;
+    border-radius: 1.2rem;
+  }
+  main section.hero .hero-bottom {
+    padding: 3.8rem;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+  }
+  main section.hero .hero-bottom .bottom-bottom h1 {
+    font-size: 4rem;
+  }
+  main section.hero .hero-bottom .bottom-bottom button {
+    margin-top: 2rem;
+  }
+  main section.view2 {
+    flex-direction: row;
+    padding: 4rem 0;
+  }
+  main section.view2 .left .elements h2, main section.view2 .right .elements h2 {
+    font-size: 4rem;
+  }
+  main section.view3 {
+    flex-direction: row-reverse;
+  }
+  main section.view3 .image, main section.view3 .content {
+    width: 50%;
+    height: 700px;
+  }
+  main section.view3 .image img, main section.view3 .content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 700px;
+    border-radius: 1.2rem;
+  }
+  main section.view3 .content {
+    padding: 3.8rem;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+  }
+  main section.view3 .content .text h1 {
+    font-size: 3rem;
+  }
+  main section.view3 .content .text .paragraphs {
+    display: flex;
+    gap: 2rem;
+  }
+  main section.view3 .content .text .paragraphs p {
+    line-height: 2;
+  }
+  main section.view4 {
+    flex-direction: row;
+  }
+  main section.view4 .image, main section.view4 .content {
+    width: 50%;
+    height: 700px;
+  }
+  main section.view4 .image img, main section.view4 .content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 700px;
+    border-radius: 1.2rem;
+  }
+  main section.view4 .content {
+    padding: 3.8rem;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+  }
+  main section.view4 .content .text h1 {
+    font-size: 3rem;
+  }
+  main section.view4 .content .text .paragraphs {
+    display: flex;
+    gap: 2rem;
+  }
+  main section.view4 .content .text .paragraphs p {
+    line-height: 2;
+  }
+  main section.view5 h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+  }
+  main section.view5 .cards {
+    flex-direction: row;
+  }
+  main section.view5 .cards .card {
+    border-radius: 1.2rem;
+  }
+  main section.view6 {
+    flex-direction: row;
+  }
+  main section.view6 .image, main section.view6 .content {
+    width: 50%;
+    border-radius: 1.2rem;
+  }
+  main section.view6 .image img, main section.view6 .content img {
+    border-radius: 1.2rem;
+    height: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main section.view6 .content {
+    justify-content: space-between;
+    height: 450px;
+    padding: 3.8rem;
+  }
+  main section.view6 .content .text h1 {
+    font-size: 2.8rem;
+  }
+  main section.contact .background {
+    padding: 3.8rem;
+    border-radius: 1.2rem;
+  }
+  main section.contact .background .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  main section.contact .background .bottom h1 {
+    font-size: 3.6rem;
+    width: 80%;
+  }
+  main section.contact .background .bottom button {
+    width: 20%;
+    height: 50px;
+  }
+  main footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "left right right right" "left right right right";
+  }
+  main footer .left {
+    justify-content: space-between;
+    border-radius: 1.2rem;
+    grid-area: left;
+    padding: 3.8rem;
+  }
+  main footer .right {
+    grid-area: right;
+  }
+  main footer .right .links {
+    border-radius: 1.2rem;
+    padding: 3.8rem;
+  }
+  main footer .right .links .pages {
+    gap: 2rem;
+  }
+  main footer .right .copy {
+    border-radius: 1.2rem;
+    padding: 3.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
