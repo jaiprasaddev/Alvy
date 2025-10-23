@@ -28,6 +28,50 @@ main {
   height: 100%;
   background-color: #121212;
 }
+main header {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+main header .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main header .nav .nav-logo {
+  margin-left: 1rem;
+}
+main header .nav .nav-logo h1 {
+  font-family: chillax;
+  font-weight: 400;
+  font-size: 1.3rem;
+  opacity: 0.6;
+}
+main header .nav .nav-res1 {
+  display: flex;
+  gap: 1rem;
+}
+main header .nav .nav-res1 a {
+  text-decoration: none;
+  font-family: wof;
+  background: #1E1E1E;
+  padding: 0.7rem 1.2rem;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+main header .nav .nav-res1 a i {
+  font-size: 1.5rem;
+}
+main header .nav .nav-res1 a span {
+  background: #CEBD63;
+  border: none;
+  color: #121212;
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+}
+main header .nav .nav-res2 {
+  display: none;
+}
 main section.hero {
   width: 100%;
   padding: 0.7rem 1rem;
@@ -526,6 +570,46 @@ main footer .right .copy p {
   }
 }
 @media screen and (min-width: 990px) {
+  main {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  main header .nav .nav-res1 {
+    display: none;
+  }
+  main header .nav .nav-res2 {
+    display: block;
+  }
+  main header .nav .nav-res2 .links {
+    display: flex;
+    gap: 0.5rem;
+  }
+  main header .nav .nav-res2 .links a {
+    text-decoration: none;
+    font-family: wof;
+    background: #1E1E1E;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    border-radius: 0.4rem;
+  }
+  main header .nav .nav-res2 .links a i {
+    font-size: 1.5rem;
+  }
+  main header .nav .nav-res2 .links a span {
+    background: #CEBD63;
+    border: none;
+    color: #121212;
+    border-radius: 50%;
+    padding: 0.1rem 0.4rem;
+  }
+  main header .nav .nav-res2 .links button {
+    background: #CEBD63;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 1.5rem;
+    font-family: wof;
+    color: #121212;
+  }
   main section.hero {
     display: flex;
     flex-direction: row;
